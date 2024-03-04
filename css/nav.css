@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+}
+
+#esp-planos {
+    color: white;
+}
+
+.planos {
+    background-image: linear-gradient(20deg, #192A66 40%, #2a4ec5);
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.ani {
+    position: relative;
+}
+
+.ani::before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+}
+
+nav a:hover > .ani::before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    transition: 1s;
+}
+
+nav a:hover > .planos img {
+    rotate: 360deg;
+    transition: 1s;
+}

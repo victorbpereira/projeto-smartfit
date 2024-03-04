@@ -1,0 +1,53 @@
+.contato-item p {
+    font-size: .95rem;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: max-content;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.247);
+    color: black;
+}
+
+.contato-item img {
+    width: 22px;
+    height: 22px;
+}
+
+.footer > p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.footer > p::before {
+    content: '';
+    width: 45px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 26px;
+}
+
+.footer {
+    background-image: linear-gradient(30deg, #01030c 30%, #071446);
+    margin-top: 100px;
+    padding: 50px;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.11);
+}
+
+.contato {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}

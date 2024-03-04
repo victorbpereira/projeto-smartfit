@@ -1,0 +1,314 @@
+@media (max-width: 1200px) {
+    .plano-bloco {
+        max-width: 350px;
+    }
+
+    .plano-bloco h2 {
+        font-size: 3.5rem;
+        margin-top: 40px;
+    }
+
+    .extra {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .plano-bloco {
+        max-width: 300px;
+        max-height: 600px;
+    }
+
+    .plano-bloco h2 {
+        font-size: 3rem;
+        margin-top: 40px;
+    }
+
+    .extra {
+        font-size: 1rem;
+    }
+
+    .info h1 {
+        font-size: 3.5rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .plano-bloco {
+        max-width: 280px;
+        max-height: 500px;
+    }
+
+    .plano-bloco h2 {
+        font-size: 2.5rem;
+        margin-top: 20px;
+    }
+
+    .extra {
+        font-size: 1rem;
+    }
+
+    .info-plano {
+        margin-top: 60px;
+    }
+
+    .inscreverse {
+        margin-top: 60px;
+        width: 175px;
+    }
+
+    .info-plano {
+        font-size: .8rem;
+        gap: 20px;
+    }
+
+    .tipo {
+        font-size: 1.2rem;
+    }
+
+    .mes {
+        font-size: .8rem;
+    }
+
+    #mensal {
+        font-size: 1.3rem;
+    }
+
+    #incluindo {
+        font-size: .9rem;
+    }
+
+    .introducao {
+        display: grid;
+        grid-template-columns: 500px 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 75px;
+        margin-top: 45px;
+        padding-right: 40px;
+    }
+
+    .introducao img {
+        height: 360px;
+    }
+
+    .info h1 {
+        font-size: 3.3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .info p {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: .5px;
+        grid-column: 2;
+        max-width: 600px;
+    }
+
+    #texto2 {
+        display: none;
+    }
+
+    #imagem img {
+        width: 550px;
+        height: 380px;
+    }
+
+    #funcionamento h2 {
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width: 950px) {
+    .introducao {
+        grid-template-columns: 400px 1fr;
+    }
+
+    .introducao img {
+        height: 330px;
+    }
+
+    #info h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .horas {
+        padding: 15px 30px;
+    }
+
+    .bg-black {
+        background-image: linear-gradient(30deg, #01030c 30%, #071446);
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        justify-content: center;
+        gap: 50px;
+        padding: 30px;
+    }
+
+    .planos-sec {
+        margin: 100px 0px 100px 0px;
+    }
+
+    #info h1 {
+        font-size: 3rem;
+    }
+
+    #imagem img {
+        width: 470px;
+        height: 350px;
+    }
+
+    .planos-sec {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .plano-bloco {
+        max-width: 350px;
+        max-height: 600px;
+    }
+
+    .plano-bloco h2 {
+        font-size: 3.5rem;
+        margin-top: 40px;
+    }
+
+    .extra {
+        font-size: 1.2rem;
+    }
+
+    .tipo {
+        font-size: 1.2rem;
+    }
+
+    .mes {
+        font-size: .8rem;
+    }
+
+    #incluindo {
+        font-size: 1rem;
+    }
+  
+}
+
+@media (max-width: 850px) {
+    .info h1 {
+        font-size: 3rem;
+    }
+
+    .info p {
+        font-size: .9rem;
+        line-height: 26px;
+        letter-spacing: .2px;
+    }
+
+    #texto1 {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    
+    #info h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    #visita {
+        font-size: .8rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: white;
+    }
+
+    #imagem img {
+        width: 430px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .introducao img {
+        display: none;
+    }
+
+    .introducao {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 0px;
+        margin-top: 60px;
+        padding-right: 0px;
+    }
+
+    .info {
+        max-width: 500px;
+    }
+
+    .unidade {
+        display: grid;
+        grid-template-columns: max-content;
+        margin-top: 100px;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    #info {
+        justify-self: left;
+        padding: 0px;
+    }
+
+    #imagem img {
+        border-radius: 10px;
+    }
+
+    .bg-black {
+        grid-template-columns: max-content;
+        justify-content: center;
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .horas {
+        padding: 20px 30px;
+        position: relative;
+    }
+    
+    .horas::after {
+        top: 40px;
+    }
+
+}
+
+@media (max-width: 560px) {
+    #funcionamento h2 {
+        font-size: 2em;
+    }
+
+    #funcionamento {
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    #funcionamento img {
+        width: 32px;
+        height: 32px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        flex-wrap: wrap;
+        gap:50px;
+        padding: 20px;
+    }
+}
