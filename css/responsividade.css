@@ -62,7 +62,7 @@
     }
 
     .info-plano {
-        font-size: .8rem;
+        font-size: .9rem;
         gap: 20px;
     }
 
@@ -172,7 +172,7 @@
     }
 
     .plano-bloco {
-        max-width: 350px;
+        max-width: 400px;
         max-height: 600px;
     }
 
@@ -195,6 +195,11 @@
 
     #incluindo {
         font-size: 1rem;
+    }
+
+    .info-plano {
+        font-size: .9rem;
+        gap: 40px;
     }
   
 }
@@ -311,4 +316,77 @@
         gap:50px;
         padding: 20px;
     }
+}
+
+@media (max-width: 500px) {
+    .info {
+        width: 400px;
+    }
+
+    .info h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .info p {
+        font-size: 1rem;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    .menu {
+        gap: 10px;
+    }
+
+    nav {
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .planos {
+        padding: 10px 12px;
+    }
+    .plano-bloco {
+        max-width: 370px;
+        max-height: 600px;
+    }
+
+    .menu p {
+        font-size: .9rem;
+    }
+
+    .menu img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 426px) {
+    nav {
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .menu {
+        gap: 5px;
+    }
+
+    #funcionamento h2 {
+        font-size: 1.5rem;
+    }
+
+    #funcionamento img {
+        width: 24px;
+        height: 24px;
+    }
+
+    #info {
+        width: 350px;
+    }
+
+    #imagem img {
+        width: 350px;
+        height: 250px;
+    }
+
 }
