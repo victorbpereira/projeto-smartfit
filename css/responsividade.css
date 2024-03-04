@@ -384,6 +384,14 @@
         width: 350px;
     }
 
+    .info h1 {
+        font-size: 3.1rem;
+    }
+
+    .info {
+        width: 340px;
+    }
+
     #imagem img {
         width: 350px;
         height: 250px;
