@@ -79,11 +79,11 @@
     margin-top: 80px;
     text-align: center;
     width: 175px;
+    transition: .5s;
 }
 
 .inscreverse:hover {
     width: 200px;
-    transition: .5s;
 }
 
 .info-plano {

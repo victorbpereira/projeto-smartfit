@@ -41,6 +41,7 @@ nav {
     background-color: black;
     position: absolute;
     top: 30px;
+    transition: .5s;
 }
 
 nav a:hover > .ani::before {
@@ -50,10 +51,12 @@ nav a:hover > .ani::before {
     background-color: black;
     position: absolute;
     top: 30px;
-    transition: 1s;
 }
 
 nav a:hover > .planos img {
     rotate: 360deg;
+}
+
+.menu img {
     transition: 1s;
 }
