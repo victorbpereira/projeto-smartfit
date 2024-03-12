@@ -1,0 +1,18 @@
+#afid {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.aberta p span {
+    color: rgb(36, 158, 228);
+}
+
+.fechada p span {
+    color: rgb(228, 36, 78);
+}
