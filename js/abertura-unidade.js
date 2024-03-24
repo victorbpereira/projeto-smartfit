@@ -1,9 +1,11 @@
 const horas = new Date().getHours()
 const afid = document.querySelector('#afid')
 const diaSemana = new Date().getDay()
+const meidSemana = ((diaSemana >= 1) && (diaSemana <= 5))
 const sabado = (diaSemana === 6)
+const domingo = (diaSemana === 0)
 
-if (diaSemana < 6) {
+if (meidSemana) {
     if (((horas >= 6) && (horas < 12)) || ((horas >= 14) && (horas < 22))) {
         afid.innerHTML = '<p>UNIDADE <span id="a">ABERTA</span></p>'
         afid.classList.add('aberta')
@@ -19,8 +21,9 @@ else if (sabado) {
     if ((horas >= 9) && (horas < 12)) {
         afid.innerHTML = '<p>UNIDADE <span id="a">ABERTA</span></p>'
         afid.classList.add('aberta')
-    } else {
-        afid.innerHTML = '<p>UNIDADE <span id="f">FECHADA</span> | VOLTAREMOS A FUNCIONAR SEGUNDA-FEIRA <span class="ahoras">6h</span></p>'
-        afid.classList.add('fechada')
     }
+}
+else if (domingo) {
+    afid.innerHTML = '<p>UNIDADE <span id="f">FECHADA</span> | VOLTAREMOS A FUNCIONAR SEGUNDA-FEIRA <span class="ahoras">6h</span></p>'
+    afid.classList.add('fechada')
 }
