@@ -18,13 +18,13 @@ body {
     margin: auto;
 }
 
-.js-scroll {
+[data-scroll="scroll-animation"] {
     opacity: 0;
     transform: translate3d(-50px, 0px, 0px);
     transition: 1s;
 }
 
-.js-scroll.animar {
+[data-scroll="scroll-animation"].animar {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }

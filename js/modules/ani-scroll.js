@@ -1,7 +1,8 @@
-const secao = document.querySelectorAll('.js-scroll')
+const secao = document.querySelectorAll('[data-scroll]')
+console.log(secao)
 const metadeTela = window.innerHeight * 0.5
 
-function scrollar() {
+export default function scrollar() {
     secao.forEach((item) => {
         const topo = item.getBoundingClientRect().top - metadeTela
         if (topo < 0) {
@@ -9,7 +10,5 @@ function scrollar() {
         }
     })
 }
-
-scrollar()
 
 window.addEventListener('scroll', scrollar)
