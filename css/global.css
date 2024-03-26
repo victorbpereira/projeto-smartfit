@@ -16,15 +16,5 @@ body {
     font-family: "Roboto", sans-serif;
     max-width: 1600px;
     margin: auto;
-}
-
-[data-scroll="scroll-animation"] {
-    opacity: 0;
-    transform: translate3d(-50px, 0px, 0px);
-    transition: 1s;
-}
-
-[data-scroll="scroll-animation"].animar {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
+    overflow-x: hidden;
 }

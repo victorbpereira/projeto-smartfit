@@ -1,0 +1,32 @@
+[data-animacao="left"] {
+    transform: translate3d(-300px, 0px, 0px);
+    opacity: 0;
+    transition: 1.5s;
+}
+
+[data-animacao="right"] {
+    transform: translate3d(300px, 0px, 0px);
+    opacity: 0;
+    transition: 1.5s;
+}
+
+[data-animacao="top"] {
+    transform: translate3d(0px, -40px, 0px);
+    opacity: 0;
+    transition: 3s;
+}
+
+.left {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+}
+
+.right {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+}
+
+.top {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+}

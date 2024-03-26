@@ -1,4 +1,4 @@
-import scrollar from './modules/ani-scroll.js'
 import abertura from './modules/abertura-unidade.js'
+import animaScroll from './modules/scrollAnimacao.js'
 abertura()
-scrollar()
+animaScroll()
