@@ -1,11 +1,11 @@
 [data-animacao="left"] {
-    transform: translate3d(-300px, 0px, 0px);
+    transform: translate3d(-70px, 0px, 0px);
     opacity: 0;
     transition: 1.5s;
 }
 
 [data-animacao="right"] {
-    transform: translate3d(300px, 0px, 0px);
+    transform: translate3d(70px, 0px, 0px);
     opacity: 0;
     transition: 1.5s;
 }
